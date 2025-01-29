@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://source.unsplash.com/1600x900/?travel,nature') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Featured Destinations */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-about {
+    background: url('https://source.unsplash.com/1600x600/?travel,nature') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Team Section */
+.rounded-circle {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-destinations {
+    background: url('https://source.unsplash.com/1600x600/?travel,landscape') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Destination Cards */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-contact {
+    background: url('https://source.unsplash.com/1600x600/?contact,travel') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Contact Form */
+form .is-invalid {
+    border-color: red;
+}
